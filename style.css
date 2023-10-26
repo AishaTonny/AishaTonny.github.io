@@ -1,0 +1,146 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a common background color */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Home section styles */
+#home {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#dynamic-text {
+    font-size: 2.5rem;
+    color: #007BFF; /* Blue color */
+}
+
+.picture-frame {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.picture-frame img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* About section styles */
+#about {
+    padding: 4rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+#about h2 {
+    color: #007BFF; /* Blue color */
+}
+
+#read-more-link {
+    color: #007BFF; /* Blue color */
+    cursor: pointer;
+}
+
+/* Skills section styles */
+#skills {
+    padding: 4rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+#skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Portfolio section styles */
+#portfolio {
+    padding: 4rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+.project {
+    margin: 2rem 0;
+}
+
+.project h3 {
+    color: #007BFF; /* Blue color */
+}
+
+.project a {
+    text-decoration: none;
+    color: #007BFF; /* Blue color */
+}
+
+/* Contact section styles */
+#contact {
+    padding: 4rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #007BFF; /* Blue color */
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
